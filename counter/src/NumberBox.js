@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import React, {useState} from 'react'
 
 function NumberBox() {
 
@@ -29,3 +29,4 @@ function NumberBox() {
 }
 
 export default NumberBox;
+

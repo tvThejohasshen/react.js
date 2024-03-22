@@ -1,5 +1,5 @@
 import NumberBox from "./NumberBox.js";
-
+import Dice from "./Dice.js";
 
 // useState is a "React hook"
 // A hook allows us to add a new functionality to a React component
@@ -19,9 +19,12 @@ export default function App() {
 
   return <>
     <h1>State Examples</h1>
-    {number}
+      {number}
     <div>
       <NumberBox/>
+    </div>
+    <div>
+      <Dice />
     </div>
   </>
 }
